@@ -7,7 +7,6 @@ package com.zdrazil.springkafkaz;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -17,7 +16,6 @@ import org.springframework.stereotype.Service;
  * @author zdraz
  */
 @Service
-@EnableKafka
 public class SpringKafkaZ {
 
   private static final Logger logger = LogManager.getLogger(SpringKafkaZ.class);
