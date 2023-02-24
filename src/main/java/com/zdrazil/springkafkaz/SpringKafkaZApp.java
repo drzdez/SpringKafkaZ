@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.springkafkaz;
+package com.zdrazil.springkafkaz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,8 +23,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SpringKafkaZApp {
 
     public static void main(String[] args) {
-        //ConfigurableApplicationContext ctx = 
         SpringApplication.run(SpringKafkaZApp.class, args);
-        //ctx.start();
     }
 }

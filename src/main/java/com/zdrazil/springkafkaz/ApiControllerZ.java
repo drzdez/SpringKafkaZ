@@ -1,4 +1,4 @@
-package com.mycompany.springkafkaz;
+package com.zdrazil.springkafkaz;
 
 
 import io.swagger.annotations.ApiOperation;
